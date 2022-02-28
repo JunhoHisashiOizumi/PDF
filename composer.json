@@ -1,0 +1,24 @@
+{
+    "name": "oizumi-junho/pdf-php",
+    "description": "Criado para facilitar a geração de PDF",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Oizumi Junho",
+        "email": "oizumijunho@gmail.com",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "OizumiJunho\\PDF\\": "src/PDF"
+        },
+        "files": [
+            "src/PDF/Config.php"
+        ]
+    },
+    "require": {
+        "dompdf/dompdf": "1.2.0",
+        "php": ">=7.0"
+    }
+}
